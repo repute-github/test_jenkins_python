@@ -8,5 +8,4 @@ def fibon(n):
         a, b = b, a + b
 
 
-
 print [x for x in fibon(10)]
