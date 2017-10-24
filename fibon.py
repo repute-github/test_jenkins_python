@@ -8,4 +8,4 @@ def fibon(n):
         a, b = b, a + b
 
 
-print "And the output is -> ",[x for x in fibon(10)]
+print "And the output is -> " = [x for x in fibon(10)]
