@@ -1,1 +1,1 @@
-import fibon
+from . import fibon
