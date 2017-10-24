@@ -4,7 +4,7 @@ pipeline {
         stage('build') {
             steps {
                 sh 'python --version'
-                sh 'pylint ./ | tee pylint.out'
+                sh 'pylint ./'
                 sh 'python fibon.py'
             }
         }
