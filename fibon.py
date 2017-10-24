@@ -1,5 +1,9 @@
 #! /usr/bin/env python
 
+
+"""This module does blah blah."""
+
+
 # generator version
 def fibon(n):
     a = b = 1
