@@ -13,4 +13,4 @@ def fibon(total):
         first, second, i = second, first + second, i
 
 
-print "And the output is -> ",././. [x for x in fibon(10)]
+print "And the output is -> ", [x for x in fibon(10)]
