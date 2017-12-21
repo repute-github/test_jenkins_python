@@ -5,7 +5,7 @@ pipeline {
       agent any
       steps {
         sh 'python --version'
-        sh 'pylint ./'
+        sh 'pylint fibon.py'
         sh 'python fibon.py'
       }
     }
