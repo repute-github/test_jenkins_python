@@ -1,12 +1,13 @@
 pipeline {
-    agent { docker 'python:3.5.1' }
-    stages {
-        stage('build') {
-            steps {
-                sh 'python --version'
-                sh 'pylint fibon.py'
-                sh 'python fibon.py'
-            }
-        }
+  agent any
+  stages {
+    stage('build') {
+      agent any
+      steps {
+        sh 'python3 --version'
+        sh 'pylint fibon.py'
+        sh 'python3 fibon.py'
+      }
     }
+  }
 }
