@@ -12,5 +12,5 @@ def fibon(total):
         yield first
         first, second, i = second, first + second, i
 
-
-print "And the output is -> ", [x for x in fibon(10)]
+if __name__ == "__main__":
+    print "And the output is -> ", [x for x in fibon(10)]
